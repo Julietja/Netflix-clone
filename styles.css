@@ -1,0 +1,425 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+
+body{
+ box-sizing: border-box;
+ margin:  0; 
+ -webkit-font-smoothing:  antialiased; 
+ -moz-osx-font-smoothing:  grayscale; 
+ background-color:  #f3f3f3; 
+ color:  #333; 
+ direction:  ltr; 
+ font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif; 
+ font-size:  16px;
+ min-width: 320px;
+ background-color: #333;
+}
+
+.hero-container{
+   overflow-x: hidden;
+   width: 100%;
+}
+
+.header-container{
+   background: transparent;
+   position: relative;
+   bottom: 0;
+   top: 0;
+   right: 0;
+   left: 0;
+   margin: 0 auto;
+   width: 100%;
+   max-width: 1920px;
+   padding-top: 20px;
+   z-index: 10;
+   transition: background-color .5s;
+   transition-duration: 0.5s;
+   transition-timing-function: ease;
+   transition-delay: 0s;
+   transition-property: background-color;
+}
+
+.header{
+position: relative; 
+width: 100%;  
+margin: 0 3.5rem;
+}
+
+.logo{
+   line-height: normal;
+   padding-top: 0.5rem;
+}
+.logo img{
+   height: 42px;
+    width: 167px;
+}
+
+.auth-login{
+ background-color: #F40612;
+ float: right;
+font-size: 1rem;
+font-weight: 400;
+color: white;
+line-height: normal;
+padding: 7px 17px;
+margin-top: 0.5rem;
+margin-right: 10rem;
+ border: none;
+ border-radius: 3px;
+}
+
+a{
+   text-decoration: none;
+   background-color: transparent;
+   cursor: pointer;
+}
+
+.hero-cards{
+   margin: 0 auto;
+}
+
+.hero-card{
+   background: transparent;
+   border-bottom: 8px solid #222;
+ color: #fff;
+   margin-bottom: 0;
+ padding: 99px 5%;
+   position: relative;
+   margin-bottom: 0px;
+}
+
+.hero-card-background{
+   bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: -70px;
+    z-index: 0;
+}
+
+.hero-card-img-container{
+   bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.hero-card .banner {
+   transform: scale(1.25) translateY(-10%);
+   width: 100%;
+   height: auto;
+   margin-top: 110x;
+}
+
+.hero-img-gradient{
+   background: rgba(0,0,0,.5);
+    background-image: linear-gradient(0deg,transparent 50%,rgba(0,0,0,.7)),radial-gradient(50% 100%,transparent 0,rgba(0,0,0,.7) 100%);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.hero-card .hero-card-text{
+   margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+#hero-card-title{
+   font-size: 3.125rem;
+   line-height: 1.1;      margin-bottom: 0.5rem;
+   margin: 0 155px;
+  }
+   
+#hero-card-subtitle{
+   font-size: 1.6rem;
+   font-weight: 400;
+   margin: 16px 155px;
+}
+
+#hero-form-title{
+   margin: 16px 0;
+   padding: 10px 0 0 0;
+   font-size: 19.2px;
+   font-weight: 400;
+}
+
+.form-elements-container{
+width: 100%;
+display: flex;
+}
+
+form input[type=text] {
+   padding: 15px;
+   background-color: white;
+   border: none;
+   width: 75%;
+   font-size: large;
+}
+
+form .butn{
+   background-color: #F40612;
+   padding: 15px;
+   border: none;
+   color: white;
+   font-weight: 400;
+   font-size: 1.5rem;
+   border: none;
+   width: 35%;
+}
+
+.center-pixel{
+   position: absolute;
+   left: 50%;
+   top: 20%;
+}
+
+.animation-card{
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 60px;
+   height: 400px;
+}
+.animation-card-text{
+   display: flex;
+   width: 50%;
+   height: 300px;
+   flex-direction: column;
+   color: white;
+   justify-content: center;
+   margin-top: 50px;
+   margin-left: 60px;
+   padding-right: 140px;
+}
+.animation-card-text h1{
+   margin-bottom: 20px;
+   font-size: 3rem;
+}
+.animation-card-text h2{
+   margin-bottom: 20px;
+   font-size: 1.6rem;
+   font-weight: 600;
+}
+
+.animation-card-img-container{
+   display: flex;
+   width: 60%;
+   height: 400px;
+}
+
+ .animation-card-img-container img{
+   border: 0;
+    height: 400px;
+    max-width: 100%;
+   position: absolute;
+}
+ #tv video{
+   position: relative;
+   top: 80px;
+   height: 230px;
+   left: 68px;
+}
+
+.th-animation-card{
+   background-color: black;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px 60px;
+   margin: 8px 0;
+}
+
+.th-animation-card-img-container
+{
+   display: flex;
+   background-color: black;
+   display: flex;
+   width: 40%;
+   height: 400px;
+   padding: 20px;
+}
+
+#images{
+ height: 400px; 
+}
+
+.th-animation-card #images .woman, .th-animation-card #images .woman img{
+   width: 500px;
+   height: 380px;
+}
+
+.frame{
+   display: flex;
+   width: 320px;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 20px;
+   padding: 8px;
+   position: relative;
+   left: 85px;
+   top: -120px;
+   color: white;
+   border: 2px solid gray;
+   background-color: black;
+
+}
+#netf{
+   height: 80px;
+}
+#download{
+   width: 40px;
+   height: 40px;
+}
+.frame-text{
+   margin-right: 50px;
+}
+.frame-text h3{
+   font-size: 1.1rem;
+   font-weight: 600;
+}
+.frame-text h4{
+   color: #00519F;
+   font-size: 1rem;
+   font-weight: 500;
+}
+
+.th-animation-card-text{
+   display: flex;
+   width: 60%;
+   height: 300px;
+   flex-direction: column;
+   color: white;
+   justify-content: center;
+   margin-top: 50px;
+   margin-right: 40px;
+   margin-left: 100px;
+   padding-left: 40px;
+   
+}
+.th-animation-card-text h1{
+   margin-bottom: 20px;
+   font-size: 3rem;
+}
+.th-animation-card-text h2{
+   margin-bottom: 20px;
+   font-size: 1.6rem;
+   font-weight: 600;
+}
+
+.fourth-section{
+height: 200px;
+}
+
+.fourth-section .animation-card-text{
+   height: 200px;
+   margin-top: 0px;
+   width: 500px;
+   border-bottom: 8px;
+}
+
+.fift-section{
+   padding: 60px 100px;
+}
+.fift-section .kids{
+   height: 360px;
+}
+.fift-section .th-animation-card-text{
+   margin-top: 0px;
+   margin-left: 0;
+   padding: 40px 0 20px 40px;
+}
+.fift-section .th-animation-card-text h2{
+   margin-right: 50px;
+}
+.sixth-section{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: auto;
+   margin-bottom: 8px;
+   padding-bottom: 100px;
+}
+.sixth-section .animation-card-text{
+   width: 60%;
+   height: 150px;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+.questions{
+   height: 20px;
+   background-color: #303030;
+   width: 65%;
+color: white;
+padding: 20px 30px 35px 30px;
+font-size: 1.6rem;
+font-weight: 600;
+margin-bottom: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.questions .cross{
+   font-weight: 200;
+   font-size: 3.5rem;
+}
+
+.sixth-section #hero-form-title{
+color: white;
+margin-top: 40px;
+}
+
+footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   background: black;
+   padding: 60px 300px 60px 200px;
+}
+
+.footer-sections{
+   display: flex;
+   justify-content: space-between;
+   padding: 0 20px;
+}
+
+.footer-header a h3{
+color: grey;
+padding-left: 30px;
+font-size: medium;
+font-weight: 400;
+}
+
+footer .segments
+{
+   height: auto;
+   padding: 10px 10px;
+   margin-bottom: 20px;
+}
+
+footer .segments a {
+   display: block;
+   color: grey;
+   margin-top: 20px;
+   font-size: small;
+   font-weight: 400;
+}
+
+.copyright h4{
+   font-size: small;
+   padding-left: 30px;
+   color: grey;
+   font-weight: 400;
+}
